@@ -1,0 +1,11 @@
+from browserurl import Input
+checktitle = Input("https://rahulshettyacademy.com/angularpractice/")
+# print(checktitle.checktitle())
+checktitle.checkname("Kunal Deore")
+checktitle.checkemail("kunal@kunal.com")
+checktitle.checkpassword("Me nai dooga")
+checktitle.checkbox()
+checktitle.gender()
+checktitle.radio()
+checktitle.submitbtn()
+print(checktitle.msg())

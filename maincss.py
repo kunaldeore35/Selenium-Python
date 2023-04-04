@@ -1,0 +1,10 @@
+from csschck import Csschk
+cs = Csschk("https://rahulshettyacademy.com/angularpractice/")
+cs.checkname("KD Bhai")
+cs.checkemail("kdbhaikd@kddon.com")
+cs.checkpassword("Me hu DON")
+cs.checkbox()
+cs.gender()
+cs.radio()
+cs.submitbtn()
+print(cs.msg())
